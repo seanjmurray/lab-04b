@@ -117,7 +117,9 @@
 	}
 
 /* Image */
-
+ .proj{
+   width: 300px;
+ }
 	.image {
 		display: inline-block;
 		border: 0;
@@ -498,7 +500,6 @@
     display: inline-block;
     padding: 1em;
     margin-bottom: 4em;
-    background-color: #222222;
   }
 
     #header header h1 {
@@ -580,14 +581,14 @@
   color: #fff;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
   text-align: center;
-  background: #35b88f url("images/banner.svg") bottom center no-repeat;
+  background: #ff6600 url("images/banner.svg") bottom center no-repeat;
   padding: 5em 0 5em 0;
   margin: 0;
   background-size: 125% auto;
 }
 
   #banner .button {
-    color: #35b882;
+    color: #ff6600;
     text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
   }
 
@@ -596,7 +597,7 @@
   }
 
     #banner header h2 {
-      font-weight: 400;
+      font-weight: 600;
       font-size: 1.75em;
       letter-spacing: 8px;
     }
@@ -610,7 +611,7 @@
   }
 
   #banner a {
-    color: inherit;
+    color: #ff6600;
     border-bottom-color: rgba(255, 255, 255, 0.5);
   }
 
@@ -639,13 +640,13 @@
   }
 
   #footer a {
-    color: #fff;
+    color: #ff6600;
     text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
     border-bottom-color: rgba(255, 255, 255, 0.5);
   }
 
     #footer a:hover {
-      color: #35b88f;
+      color: #ffffff;
       text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
       border-bottom-color: rgba(53, 184, 143, 0.5);
     }
